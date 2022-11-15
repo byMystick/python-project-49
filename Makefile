@@ -8,4 +8,5 @@ publish:				# Debug publishing
 	poetry publish --dry-run
 package-install:			# Install package
 	python3 -m pip install --user dist/*.whl
-
+make lint:				# Сode style test
+	poetry run flake8 brain_games
