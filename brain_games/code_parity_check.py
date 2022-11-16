@@ -27,5 +27,6 @@ def parity_check():
         else:
             print(f"{answer} is wrong answer ;(. Correct answer was 'yes/no'."
                   f"Let's try again, {name}!")
+            break
     if correct > 3:
         return print(f'Congratulations, {name}!')
