@@ -1,0 +1,33 @@
+from random import randint
+import prompt
+
+
+def parity_check():
+    print('Welcome to the Parity check Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+    correct = 1
+    while correct <= 3:
+        number = randint(1, 100)
+        print(f'Question: {number}')
+        answer = prompt.string(f'Your answer: ')
+        if number % 2 == 0 and answer == str('yes') or number % 2 != 0 and answer == str('no'):
+            print('Correct!')
+            correct += 1
+        elif number % 2 == 0 and answer == str('no'):
+            print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
+            break
+        elif number % 2 != 0 and answer == str('yes'):
+            print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
+            break
+        else:
+            print(f"{answer} is wrong answer ;(. Correct answer was 'no' or 'yes'.\nLet's try again, {name}!")
+    if correct > 3:
+        return print(f'Congratulations, {name}!')
+
+
+
+
+
+

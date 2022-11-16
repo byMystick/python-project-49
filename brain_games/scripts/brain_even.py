@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from brain_games.cli import welcome_user
+from brain_games.code_parity_check import parity_check
 
 
 def main():
-    welcome_user()
+    parity_check()
 
 
 if __name__ == '__main__':
