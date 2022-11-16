@@ -11,23 +11,21 @@ def parity_check():
     while correct <= 3:
         number = randint(1, 100)
         print(f'Question: {number}')
-        answer = prompt.string(f'Your answer: ')
-        if number % 2 == 0 and answer == str('yes') or number % 2 != 0 and answer == str('no'):
+        answer = prompt.string('Your answer: ')
+        if number % 2 == 0 and answer == str('yes') \
+                or number % 2 != 0 and answer == str('no'):
             print('Correct!')
             correct += 1
         elif number % 2 == 0 and answer == str('no'):
-            print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
+            print(f"'no' is wrong answer ;(. Correct answer was 'yes'. "
+                  f"Let's try again, {name}!")
             break
         elif number % 2 != 0 and answer == str('yes'):
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
+            print(f"'yes' is wrong answer ;(. Correct answer was 'no'."
+                  f"Let's try again, {name}!")
             break
         else:
-            print(f"{answer} is wrong answer ;(. Correct answer was 'no' or 'yes'.\nLet's try again, {name}!")
+            print(f"{answer} is wrong answer ;(. Correct answer was 'yes/no'."
+                  f"Let's try again, {name}!")
     if correct > 3:
         return print(f'Congratulations, {name}!')
-
-
-
-
-
-

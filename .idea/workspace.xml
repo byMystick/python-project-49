@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="63b6b08f-78a4-4310-9815-e66f0ac9b646" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_games.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_games.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/code_parity_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/code_parity_check.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
