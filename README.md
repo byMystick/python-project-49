@@ -21,7 +21,7 @@ make publish
 make package-install
 
 	python3 -m pip install --user --force-reinstall  dist/*.whl
-start game
+start game brain-even
 
 	brain-even
 	
