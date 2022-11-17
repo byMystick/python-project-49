@@ -4,7 +4,8 @@
 <a href="https://codeclimate.com/github/byMystick/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a7a4cebc82fa263897c1/test_coverage" /></a>
 
 Clone the repository
-$ git clone https://github.com/zhek111/python-project-lvl1
+
+	$ git clone https://github.com/zhek111/python-project-lvl1
 
 Use make (Makefile):
 
