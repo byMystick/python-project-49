@@ -24,7 +24,8 @@ def gcd():
         number2 = random.randint(1, 100)
         print(f'Question: {number1} {number2}')
         answer_user = prompt.string('Your answer: ')
-        answer = gcd_by_euclid(number1, number2)    # function 'gcd_by_euclid' result to variable
+        # function 'gcd_by_euclid' result to variable
+        answer = gcd_by_euclid(number1, number2)
         if str(answer_user) == str(answer):
             score += 1
             print('Correct!')
