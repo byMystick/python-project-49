@@ -19,5 +19,8 @@ make package-install
 
 	python3 -m pip install --user --force-reinstall  dist/*.whl
 start game
+
 	brain-even
-<script id="asciicast-h99LryKfIEAeooBlS9lrav3Vi" src="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi.js" async></script>
+	
+	
+<a href="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi" target="_blank"><img src="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi.svg" /></a>
