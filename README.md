@@ -27,3 +27,7 @@ start game brain-even
 	
 	
 <a href="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi" target="_blank"><img src="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi.svg" /></a>
+
+	brain-calc
+
+<a href="https://asciinema.org/a/96qeg8zNturtbVPdAPVOI0DXH" target="_blank"><img src="https://asciinema.org/a/96qeg8zNturtbVPdAPVOI0DXH.svg" /></a>
