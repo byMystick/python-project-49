@@ -24,7 +24,7 @@ def calc():
     print('What is the result of the expression?')
     score = 1   # keep score
     while score <= 3:   # cycle up to 3
-        x = answer()
+        x = answer()    # function 'answer' result to variable
         answer_user = prompt.string("Your answer: ")
         if str(x) == str(answer_user):
             print('Correct!')
