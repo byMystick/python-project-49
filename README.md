@@ -5,7 +5,7 @@
 
 Clone the repository
 
-	$ git clone https://github.com/zhek111/python-project-lvl1
+	$ git clone git@github.com:byMystick/python-project-49.git
 
 Use make (Makefile):
 
