@@ -2,7 +2,7 @@ import random
 import prompt
 
 
-def answer():
+def answer():   # determine the answer
     numbers_1 = random.randint(1, 99)
     numbers_2 = random.randint(1, 99)
     operator = random.choice(['-', '+', '*'])
