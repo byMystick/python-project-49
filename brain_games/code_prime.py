@@ -26,7 +26,8 @@ def prime():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     score = 1  # keep score
     while score <= 3:  # cycle up to 3
-        question, answer = question_answer()  # function 'answer' result to variable
+        # function 'answer' result to variable
+        question, answer = question_answer()
         answer_user = prompt.string("Your answer: ")
         if str(answer) == str(answer_user):
             print('Correct!')
