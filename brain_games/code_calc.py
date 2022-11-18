@@ -1,5 +1,6 @@
 import random
 import prompt
+from brain_games.cli import welcome_user
 
 
 def answer():   # determine the answer
@@ -18,9 +19,7 @@ def answer():   # determine the answer
 
 
 def calc():
-    print('Welcome to the Calculator Game!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    name = welcome_user()   # import greeting
     print('What is the result of the expression?')
     score = 1   # keep score
     while score <= 3:   # cycle up to 3

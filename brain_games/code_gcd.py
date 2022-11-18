@@ -1,6 +1,7 @@
 # In this code we are not using librory 'math'. We bild a funkcion.
 import random
 import prompt
+from brain_games.cli import welcome_user
 
 
 # Euclid's algorithm
@@ -14,9 +15,7 @@ def gcd_by_euclid(a, b):
 
 
 def gcd():
-    print('Welcome to the GCD Game!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}')
+    name = welcome_user()   # import greeting
     print('Find the greatest common divisor of given numbers.')
     score = 1   # keep score
     while score <= 3:   # cycle up to 3
