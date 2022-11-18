@@ -31,10 +31,12 @@ def fprogression():
     while score <= 3:
         question, answer = generate_question()
         print(f'Question: {question}')
-        answer_user = prompt.string(f'Your answer: ')
+        answer_user = prompt.string('Your answer: ')
         if answer_user == answer:
             print('Correct!')
             score += 1
         else:
-            print(f"'{answer_user}' is wrong answer ;(. Correct answer was '{answer}.'"
+            print(f"'{answer_user}' is wrong answer ;(. "
+                  f"Correct answer was '{answer}.'"
                   f"\nLets try again, {name}!")
+            break
