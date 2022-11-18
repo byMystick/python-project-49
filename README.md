@@ -34,3 +34,9 @@ start game brain-even
 	brain-gcd
 	
 <a href="https://asciinema.org/a/3kFDjqBrDREMHl6Htfi6G6UPa" target="_blank"><img src="https://asciinema.org/a/3kFDjqBrDREMHl6Htfi6G6UPa.svg" /></a>
+
+	brain-progression
+
+<a href="https://asciinema.org/a/A0g9vPP97Jeb2xAAPvras4bUp" target="_blank"><img src="https://asciinema.org/a/A0g9vPP97Jeb2xAAPvras4bUp.svg" /></a>
+
+
