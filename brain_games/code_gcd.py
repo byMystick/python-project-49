@@ -34,4 +34,4 @@ def gcd():
                   f"\nLet's try again, {name}!")
             break
     if score > 3:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
