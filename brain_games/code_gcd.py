@@ -30,7 +30,8 @@ def gcd():
             print('Correct!')
         else:
             print(f"'{answer_user}' is wrong answer ;(. "
-                  f"Correct answer was {answer}")
+                  f"Correct answer was '{answer}'."
+                  f"\nLet's try again, {name}!")
             break
     if score > 3:
         print(f'Congratulations, {name}')
