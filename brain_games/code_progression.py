@@ -40,3 +40,5 @@ def fprogression():
                   f"Correct answer was '{answer}.'"
                   f"\nLets try again, {name}!")
             break
+    if score > 3:
+        return print(f'Congratulations, {name}!')
