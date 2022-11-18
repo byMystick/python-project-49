@@ -7,7 +7,7 @@ def f_answer():   # determine the answer
     numbers_1 = random.randint(1, 99)
     numbers_2 = random.randint(1, 99)
     operator = random.choice(['+', '-', '*'])
-    print(f'{numbers_1} {operator} {numbers_2}')
+    print(f'Question: {numbers_1} {operator} {numbers_2}')
     answer_b = ''
     if operator == '-':
         answer_b = numbers_1 - numbers_2
