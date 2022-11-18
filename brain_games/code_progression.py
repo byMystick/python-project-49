@@ -38,7 +38,7 @@ def fprogression():
         else:
             print(f"'{answer_user}' is wrong answer ;(. "
                   f" Correct answer was '{answer}.'"
-                  f"\nLets try again, {name}!")
+                  f"\nLet's try again, {name}!")
             break
     if score > 3:
         return print(f'Congratulations, {name}!')
