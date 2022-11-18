@@ -39,4 +39,6 @@ start game brain-even
 
 <a href="https://asciinema.org/a/A0g9vPP97Jeb2xAAPvras4bUp" target="_blank"><img src="https://asciinema.org/a/A0g9vPP97Jeb2xAAPvras4bUp.svg" /></a>
 
-
+	brain-prime
+	
+<a href="https://asciinema.org/a/0flnrLGeufaWQqxHCPDq8XJO4" target="_blank"><img src="https://asciinema.org/a/0flnrLGeufaWQqxHCPDq8XJO4.svg" /></a>
