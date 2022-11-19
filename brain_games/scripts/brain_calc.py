@@ -8,9 +8,9 @@ from brain_games.logic_game import run_game
 from brain_games.games import code_calc
 
 
-def main():
+def calc():
     run_game(code_calc)
 
 
 if __name__ == '__main__':
-    main()
+    calc()
