@@ -1,9 +1,8 @@
 import random
-import prompt
-from brain_games.cli import welcome_user
+game_post = 'What number is missing in the progression?'
 
 
-def generate_question():
+def game():
     start_progression = random.randint(1, 100)  # generate start number
     step = random.randint(1, 10)    # generate step
     # generate progression length
@@ -22,23 +21,3 @@ def generate_question():
         question = question + str(number) + " "
     question = question.strip()
     return str(question), str(answer)
-
-
-def fprogression():
-    name = welcome_user()  # import greeting
-    print('What number is missing in the progression?')
-    score = 1  # keep score
-    while score <= 3:
-        question, answer = generate_question()
-        print(f'Question: {question}')
-        answer_user = prompt.string('Your answer: ')
-        if answer_user == answer:
-            print('Correct!')
-            score += 1
-        else:
-            print(f"'{answer_user}' is wrong answer ;(. "
-                  f" Correct answer was '{answer}.'"
-                  f"\nLet's try again, {name}!")
-            break
-    if score > 3:
-        return print(f'Congratulations, {name}!')
