@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
- "Progression game"
+ ""Progression game""
 """
 
 from brain_games.logic_game import run_game
