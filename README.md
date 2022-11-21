@@ -4,6 +4,7 @@
 <a href="https://codeclimate.com/github/byMystick/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a7a4cebc82fa263897c1/test_coverage" /></a>
 
 Instructions
+
 Try playing math mini games. Each game has its own instructions inside.
 
 Installation
