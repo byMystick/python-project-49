@@ -18,6 +18,7 @@ Run game:
 	$ brain-prime		#
 
 Installation if you developer:
+
 Clone the repository
 
 	$ git clone git@github.com:byMystick/python-project-49.git
@@ -25,12 +26,19 @@ Clone the repository
 Use make (Makefile):
 
 $make install			# environment setting
+
 	poetry install
+	
 $make build			# package assembly
+
 	poetry build		
+	
 $make publish			# publish package
+
 	poetry publish --dry-run
+	
 $make package-install		# package install
+
 	python3 -m pip install --user --force-reinstall  dist/*.whl
 
 start game :
