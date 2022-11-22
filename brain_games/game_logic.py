@@ -8,7 +8,7 @@ def run_game(module):
     name = welcome_user()
     print(module.game_name)
     while score <= final_score:
-        question, answer = module.game()
+        question, answer = module.generate_responses()
         print(f'Question: {question}')
         answer_user = prompt.string('Your answer: ')
         if str(answer_user) == str(answer):

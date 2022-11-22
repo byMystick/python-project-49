@@ -13,11 +13,11 @@ def gcd_by_euclid(a, b):
     return a
 
 
-def game():
+def generate_responses():
     number1 = random.randint(1, 100)    # create a number1
     number2 = random.randint(1, 100)    # create a number2
     # get an answer
     answer = gcd_by_euclid(number1, number2)
-    # get an question
+    # get a question
     question = f'{number1} {number2}'
     return question, answer

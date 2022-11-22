@@ -2,14 +2,15 @@ import random
 game_name = 'What is the result of the expression?'
 
 
-def game():
-    # generate number 1
-    x = random.randint(1, 100)
-    # generate number 2
-    y = random.randint(1, 100)
-    operators = ['-', '+', '*']
-    make_choice = random.choice(operators)
-    operation = {'-': (x - y), '+': (x + y), '*': (x * y)}
-    question = (str(x) + ' ' + make_choice + ' ' + str(y))
-    result = str(operation[make_choice])
+def generate_responses():
+    number_1 = random.randint(1, 100)
+    number_2 = random.randint(1, 100)
+    operator = random.choice(['-', '+', '*'])
+    if operator == '-':
+        result = number_1 - number_2
+    elif operator == '+':
+        result = number_1 + number_2
+    elif operator == '*':
+        result = number_1 * number_2
+    question = f'{number_1} {operator} {number_2}'
     return question, result
