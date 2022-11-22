@@ -17,6 +17,7 @@ Run game:
 	$ brain-progression	#
 	$ brain-prime		#
 
+-------------------------------------------------------------------
 Installation if you developer:
 
 Clone the repository
