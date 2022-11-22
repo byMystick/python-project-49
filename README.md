@@ -25,19 +25,19 @@ Clone the repository
 
 Use make (Makefile):
 
-$make install			# environment setting
+$ make install			# environment setting
 
 	poetry install
 	
-$make build			# package assembly
+$ make build			# package assembly
 
 	poetry build		
 	
-$make publish			# publish package
+$ make publish			# publish package
 
 	poetry publish --dry-run
 	
-$make package-install		# package install
+$ make package-install		# package install
 
 	python3 -m pip install --user --force-reinstall  dist/*.whl
 
