@@ -26,21 +26,21 @@ Clone the repository
 
 Use make (Makefile):
 
-$ make install				# environment setting
+$ make install				
 
-	poetry install
+	poetry install 			# environment setting
 	
-$ make build				# package assembly
+$ make build				
 
-	poetry build		
+	poetry build			# package assembly	
 	
-$ make publish				# publish package
+$ make publish				
 
-	poetry publish --dry-run
+	poetry publish --dry-run	# publish package
 	
-$ make package-install			# package install
+$ make package-install			
 
-	python3 -m pip install --user --force-reinstall  dist/*.whl
+	python3 -m pip install --user --force-reinstall  dist/*.whl  # package install
 
 start game :
 	brain-even
