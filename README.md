@@ -11,11 +11,11 @@ Try playing math mini games. Each game has its own instructions inside.
 
 Run game:
 
-	$ brain-even		# 
-	$ brain-calc		#
-	$ brain-gcd		#
-	$ brain-progression	#
-	$ brain-prime		#
+	$ brain-even		# game 'Parity check'
+	$ brain-calc		# game 'Calculator'
+	$ brain-gcd		# game 'JCD' greatest common divisor
+	$ brain-progression	# game 'Arithmetic progression'
+	$ brain-prime		# game 'Is it a prime number'
 
 -------------------------------------------------------------------
 Installation if you developer:
@@ -42,7 +42,7 @@ $ make package-install
 
 	python3 -m pip install --user --force-reinstall  dist/*.whl  # package install
 
-start game :
+Makefile commands and start game :
 	brain-even
 	
 <a href="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi" target="_blank"><img src="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi.svg" /></a>
