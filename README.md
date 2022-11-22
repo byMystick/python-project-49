@@ -20,10 +20,10 @@ brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 ------------------------------------------------------------------	
 
 To start the game:
-Clone the repository
+Install package
 
-	$ git clone git@github.com:byMystick/python-project-49.git
-run either(for example):
+	$ python3 -m pip install --user git+https://github.com/byMystick/python-project-49
+run game:
 
 	$ brain-even
 	$ brain-calc
@@ -56,8 +56,8 @@ $ make package-install
 
 	python3 -m pip install --user --force-reinstall  dist/*.whl  # package install
 
-Makefile commands and start game :
-	brain-even
+video of Makefile commands and launching games :
+	Makefile and brain-even
 	
 <a href="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi" target="_blank"><img src="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi.svg" /></a>
 
