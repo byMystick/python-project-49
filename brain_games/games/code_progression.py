@@ -1,5 +1,5 @@
 import random
-game_post = 'What number is missing in the progression?'
+game_name = 'What number is missing in the progression?'
 
 
 def game():

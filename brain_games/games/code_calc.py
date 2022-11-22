@@ -1,5 +1,5 @@
 import random
-game_post = 'What is the result of the expression?'
+game_name = 'What is the result of the expression?'
 
 
 def game():

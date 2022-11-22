@@ -1,5 +1,5 @@
 from random import randint
-game_post = 'Answer "yes" if the number is even, otherwise answer "no".'
+game_name = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def game():

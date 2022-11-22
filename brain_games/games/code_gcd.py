@@ -1,6 +1,6 @@
 # In this code we are not using librory 'math'. We bild a funkcion.
 import random
-game_post = 'Find the greatest common divisor of given numbers.'
+game_name = 'Find the greatest common divisor of given numbers.'
 
 
 # Euclid's algorithm

@@ -4,7 +4,7 @@ import prompt
 
 def run_game(module):
     name = welcome_user()
-    print(module.game_post)
+    print(module.game_name)
     score = 0
     while 0 <= score < 3:
         question, answer = module.game()

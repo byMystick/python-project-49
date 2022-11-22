@@ -1,5 +1,5 @@
 import random
-game_post = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+game_name = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 # check if the number is prime or not
