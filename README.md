@@ -8,9 +8,13 @@ Instructions:
 Try playing math mini games. Each game has its own instructions inside.
 
 brain-even: Answer "yes" if the number is even, otherwise answer "no".
+
 brain-calc: What is the result of the expression?
+
 brain-gcd: Find the greatest common divisor of given numbers.
+
 brain-progression: What number is missing in the progression?
+
 brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 
 	$ git clone git@github.com:byMystick/python-project-49.git
