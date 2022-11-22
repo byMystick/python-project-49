@@ -17,9 +17,13 @@ brain-progression: What number is missing in the progression?
 
 brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 
-	$ git clone git@github.com:byMystick/python-project-49.git
+------------------------------------------------------------------	
 
-To start the game, run either(for example):
+To start the game:
+Clone the repository
+
+	$ git clone git@github.com:byMystick/python-project-49.git
+run either(for example):
 
 	$ brain-even
 	$ brain-calc
