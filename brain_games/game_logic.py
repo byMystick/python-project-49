@@ -3,10 +3,11 @@ import prompt
 
 
 def run_game(module):
+    score = 0
+    final_score = 3
     name = welcome_user()
     print(module.game_name)
-    score = 0
-    while 0 <= score < 3:
+    while score <= final_score:
         question, answer = module.game()
         print(f'Question: {question}')
         answer_user = prompt.string('Your answer: ')
@@ -18,5 +19,6 @@ def run_game(module):
                   f" Correct answer was '{answer}'."
                   f"\nLet's try again, {name}!")
             break
-    if score == 3:
-        print(f'Congratulations, {name}!')
+        if score == final_score:
+            print(f'Congratulations, {name}!')
+            break
