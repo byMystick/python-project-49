@@ -7,15 +7,21 @@ Instructions:
 
 Try playing math mini games. Each game has its own instructions inside.
 
+brain-even: Answer "yes" if the number is even, otherwise answer "no".
+brain-calc: What is the result of the expression?
+brain-gcd: Find the greatest common divisor of given numbers.
+brain-progression: What number is missing in the progression?
+brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
+
 	$ git clone git@github.com:byMystick/python-project-49.git
 
-Run game:
+To start the game, run either(for example):
 
-	$ brain-even		# game 'Parity check'
-	$ brain-calc		# game 'Calculator'
-	$ brain-gcd		# game 'JCD' greatest common divisor
-	$ brain-progression	# game 'Arithmetic progression'
-	$ brain-prime		# game 'Is it a prime number'
+	$ brain-even
+	$ brain-calc
+	$ brain-gcd
+	$ brain-progression
+	$ brain-prime
 
 -------------------------------------------------------------------
 Installation if you developer:
