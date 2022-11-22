@@ -3,31 +3,37 @@
 <a href="https://codeclimate.com/github/byMystick/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/a7a4cebc82fa263897c1/maintainability" /></a>
 <a href="https://codeclimate.com/github/byMystick/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a7a4cebc82fa263897c1/test_coverage" /></a>
 
-Instructions
+Instructions:
 
 Try playing math mini games. Each game has its own instructions inside.
 
-Installation
+	$ git clone git@github.com:byMystick/python-project-49.git
+
+Run game:
+
+	$ brain-even		# 
+	$ brain-calc		#
+	$ brain-gcd		#
+	$ brain-progression	#
+	$ brain-prime		#
+
+Installation if you developer:
 Clone the repository
 
 	$ git clone git@github.com:byMystick/python-project-49.git
 
 Use make (Makefile):
 
-make install
-
+$make install			# environment setting
 	poetry install
-make build
-
-	poetry build
-make publish
-
+$make build			# package assembly
+	poetry build		
+$make publish			# publish package
 	poetry publish --dry-run
-make package-install
-
+$make package-install		# package install
 	python3 -m pip install --user --force-reinstall  dist/*.whl
-start game brain-even
 
+start game :
 	brain-even
 	
 <a href="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi" target="_blank"><img src="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi.svg" /></a>
