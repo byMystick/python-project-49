@@ -35,7 +35,7 @@ Publish package `$ make publish`
 	
 Package install `$ make package-install`
 
-video of Makefile commands and launching games :
+#### Video of Makefile commands and launching games :
 ##### Makefile and brain-even
 	
 <a href="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi" target="_blank"><img src="https://asciinema.org/a/h99LryKfIEAeooBlS9lrav3Vi.svg" /></a>
