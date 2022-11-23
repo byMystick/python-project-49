@@ -19,22 +19,11 @@
 
 `$ brain-prime`: Answer "yes" if given number is prime. Otherwise answer "no".
 
-------------------------------------------------------------------	
-
-run game:
-
-	$ brain-even
-	$ brain-calc
-	$ brain-gcd
-	$ brain-progression
-	$ brain-prime
-
 -------------------------------------------------------------------
-### Installation if you developer:
+## Installation if you developer:
 
 Clone the repository
-
-	$ git clone git@github.com:byMystick/python-project-49.git
+`$ git clone git@github.com:byMystick/python-project-49.git`
 
 Use make (Makefile):
 
