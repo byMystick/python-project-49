@@ -12,8 +12,11 @@ def run_game(module):
         answer_user = prompt.string('Your answer: ')
         if str(answer_user) == str(answer):
             print('Correct!')
+            i += 1
         else:
             print(f"'{answer_user}' is wrong answer ;(. "
                   f" Correct answer was '{answer}'."
                   f"\nLet's try again, {name}!")
-    print(f'Congratulations, {name}!')
+            break
+    if i == 3:
+        print(f'Congratulations, {name}!')
