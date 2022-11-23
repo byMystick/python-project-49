@@ -3,8 +3,10 @@
 <a href="https://codeclimate.com/github/byMystick/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/a7a4cebc82fa263897c1/maintainability" /></a>
 <a href="https://codeclimate.com/github/byMystick/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a7a4cebc82fa263897c1/test_coverage" /></a>
 
-# Instructions:
+# Instructions to start the games:
 
+### Install the package
+	$ python3 -m pip install --user git+https://github.com/byMystick/python-project-49
 Try playing math mini games. Each game has its own instructions inside.
 
 brain-even: Answer "yes" if the number is even, otherwise answer "no".
@@ -19,10 +21,6 @@ brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 
 ------------------------------------------------------------------	
 
-## To start the game:
-Install the package
-
-	$ python3 -m pip install --user git+https://github.com/byMystick/python-project-49
 run game:
 
 	$ brain-even
