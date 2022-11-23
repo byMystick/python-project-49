@@ -19,7 +19,7 @@ brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 
 ------------------------------------------------------------------	
 
-To start the game:
+## To start the game:
 Install the package
 
 	$ python3 -m pip install --user git+https://github.com/byMystick/python-project-49
@@ -32,7 +32,7 @@ run game:
 	$ brain-prime
 
 -------------------------------------------------------------------
-Installation if you developer:
+### Installation if you developer:
 
 Clone the repository
 
