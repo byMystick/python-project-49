@@ -2,7 +2,7 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "five mathy brain games"
-classifiers = "Topic :: Games/Entertainment"
+classifiers = ["Topic :: Games/Entertainment"]
 authors = ["Sergey <16-@bk.ru>"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
