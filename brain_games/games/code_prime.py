@@ -16,4 +16,4 @@ def generate_number(random_number):
 def generate_responses():
     question = random.randint(1, 100)
     answer = 'yes' if generate_number(question) else 'no'
-    return str(question), str(answer)
+    return question, answer
