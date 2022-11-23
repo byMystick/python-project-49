@@ -27,13 +27,13 @@ Clone the repository
 
 Use make (Makefile):
 
-`$ make install` # environment setting
+Environment setup, dependency installation `$ make install`
 	
-`$ make build`	 # package assembly	
+Package assembly `$ make build`	
 	
-`$ make publish` # publish package
+Publish package `$ make publish`
 	
-`$ make package-install`  # package install
+Package install `$ make package-install`
 
 video of Makefile commands and launching games :
 ##### Makefile and brain-even
