@@ -9,7 +9,7 @@
 	$ python3 -m pip install --user git+https://github.com/byMystick/python-project-49
 ### Try playing math mini games. Each game has its own instructions inside.
 
-__$ brain-even__: Answer "yes" if the number is even, otherwise answer "no".
+`$ brain-even`: Answer "yes" if the number is even, otherwise answer "no".
 
 brain-calc: What is the result of the expression?
 
