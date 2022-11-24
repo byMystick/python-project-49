@@ -3,10 +3,9 @@ import prompt
 
 
 def run_game(module):
-    final_score = 3
     name = welcome_user()
     print(module.game_name)
-    for i in range(final_score):
+    for i in range(3):
         question, answer = module.generate_responses()
         print(f'Question: {question}')
         answer_user = prompt.string('Your answer: ')
