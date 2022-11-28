@@ -4,7 +4,7 @@ game_name = 'What is the result of the expression?'
 operators = ["+", "-", "*"]
 
 
-def generate_responses():
+def create_question_answer():
     number_1 = random.randint(1, 100)
     number_2 = random.randint(1, 100)
     operator_ = random.choice(operators)

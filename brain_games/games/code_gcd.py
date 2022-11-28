@@ -13,7 +13,7 @@ def gcd_by_euclid(a, b):
     return a
 
 
-def generate_responses():
+def create_question_answer():
     number1 = random.randint(1, 100)    # create a number1
     number2 = random.randint(1, 100)    # create a number2
     # get an answer
