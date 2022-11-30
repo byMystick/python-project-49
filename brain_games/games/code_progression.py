@@ -13,7 +13,7 @@ def create_a_progression_and_length():
 
 def create_question_answer():
     progression, progression_length = create_a_progression_and_length()
-    random_number = (random.randint(0, progression_length - 1))
+    random_number = random.randint(0, progression_length - 1)
     answer = progression[random_number]
     progression[random_number] = '..'
     question = ''
