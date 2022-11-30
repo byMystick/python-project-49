@@ -15,7 +15,7 @@ def run_game(module):
             print('Correct!')
             game_score += 1
         else:
-            print(f"'{answer_user}' is wrong answer ;(. "
+            print(f"'{answer_user}' is wrong answer ;(."
                   f" Correct answer was '{answer}'."
                   f"\nLet's try again, {name}!")
             break

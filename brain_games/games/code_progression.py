@@ -1,23 +1,21 @@
 import random
-game_name = 'What number is missing in the progression?'
+game_name = "What number is missing in the progression?"
 
 
-def create_a_progression_and_length():
-    start_of_progression = random.randint(1, 100)
-    step = random.randint(1, 10)
+def make_progression():
+    start_progression = random.randint(1, 100)
+    step_progression = random.randint(2, 12)
     progression_length = random.randint(5, 10)
-    end_of_progression = start_of_progression + step * progression_length
-    progression = list(range(start_of_progression, end_of_progression, step))
-    return progression, progression_length
+    progression = [start_progression]
+    for i in range(progression_length):
+        progression.append(progression[i] + step_progression)
+    return progression
 
 
 def create_question_answer():
-    progression, progression_length = create_a_progression_and_length()
-    random_number = random.randint(0, progression_length - 1)
-    answer = progression[random_number]
-    progression[random_number] = '..'
-    question = ''
-    for number in progression:
-        question += f'{number} '
-    question = question.strip()
+    progression = make_progression()
+    answer = random.choice(progression)
+    number_index = progression.index(answer)
+    progression[number_index] = '..'
+    question = (' '.join(map(str, progression)))
     return question, answer
